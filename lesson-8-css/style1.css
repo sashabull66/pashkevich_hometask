@@ -1,0 +1,10 @@
+span {
+    display: block;
+}
+.padding {
+    padding-bottom: 15px;
+}
+fieldset {
+    width: 690px;
+    margin-bottom: 18px;
+}

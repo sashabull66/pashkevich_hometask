@@ -3,8 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
+  <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-
+  <h2>Sign up to the app</h2>
+  <form action="" id="228">
+    <fieldset>
+      <legend>Personal information</legend>
+      <div class="padding">
+        <span>First name:</span>
+        <label><input type="text" value="Mickey"></label>
+      </div>
+      <div class="padding">
+        <span>Last name:</span>
+        <label><input type="text" value="Mouse"></label>
+      </div>
+      <div>
+        <span>Self-presentation</span>
+        <label>
+          <textarea name="" cols="30" rows="11">The cat was playing in the garden.</textarea>
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Car info (the brand):</legend>
+      <label>
+        <select name="" id="">
+          <option value="volvo" selected>Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Choose one:</legend>
+      <div>
+        <label><input type="radio" value="male" name="gender" checked>Male</label>
+      </div>
+      <div>
+        <label><input type="radio" value="female" name="gender">Female</label>
+      </div>
+      <div>
+        <label><input type="radio" value="other" name="gender">Other</label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Choose many:</legend>
+      <div>
+        <label><input type="checkbox" name="transport1">I have a bike</label>
+      </div>
+      <div>
+        <label><input type="checkbox" name="transport2">I have a car</label>
+      </div>
+    </fieldset>
+    <button type="submit">Submit</button>
+    <button type="reset">Cancel</button>
+  </form>
 </body>
 </html>
