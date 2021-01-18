@@ -27,7 +27,7 @@ ul:first-child {
 }
 
 a:hover {
-    color: #A1A9BC; /* цвет текста при наведении мыши */
+    color: #AAA09F; /* цвет текста при наведении мыши */
     background-color: #EEEEEE; /* цвет фона при наведении мыши */
     padding: 5px 10px 5px 10px; /* размер окна наведенного объекта */
     box-shadow: 0 2px 2px #e2e2e2, 0 -2px 2px #e2e2e2; /* тень */
