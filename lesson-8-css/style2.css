@@ -6,10 +6,6 @@ nav {
     font-size: 14px; /* размер шрифта */
 }
 
-nav {
-    padding: 0; /* обнуляю отступы */
-}
-
 nav > ul > li {
     display: inline; /* делаю строчным */
 }
@@ -19,15 +15,25 @@ nav > ul {
 }
 
 nav > ul > li > a {
-    padding: 10px 0 0 20px; /* отступы вокруг текста пунктов меню */
+    display: inline-block;
+    padding: 5px 10px 5px 10px; /* отступы вокруг текста пунктов меню */
     text-decoration: none; /* убираю подчеркивания ссылок снизу */
     color: #FFFBFF; /* цвет текста */
-    line-height: 30px; /* междустрочный интервал */
+    text-transform: uppercase; /* буквы большими */
+}
+
+ul:first-child {
+    padding-left: 50px; /* значение левого поля */
 }
 
 a:hover {
     color: #A1A9BC; /* цвет текста при наведении мыши */
     background-color: #EEEEEE; /* цвет фона при наведении мыши */
-    padding: 5px 15px 5px 15px; /* размер окна наведенного объекта */
+    padding: 5px 10px 5px 10px; /* размер окна наведенного объекта */
     box-shadow: 0 2px 2px #e2e2e2, 0 -2px 2px #e2e2e2; /* тень */
+}
+
+.float {
+    float: right; /* выравнивание по правой стороне */
+    padding-right: 50px; /* значение правого поля */
 }
