@@ -1,0 +1,14 @@
+a[href*="https"] {
+    color: #f70;
+}
+a[href*="google"] {
+    color: #666666
+}
+a[target="_blank"]:after  {
+    content: '\21F1';
+    transform: rotate(90deg);
+    display: inline-block;
+}
+a[target="_blank"]:after {
+    transform: rotate(90deg)
+}
