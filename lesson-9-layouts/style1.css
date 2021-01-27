@@ -2,16 +2,15 @@
     font-family: Calibri, serif; /* тип шрифта */
     font-size: 19px; /* размер шрифта */
 }
+
 span {
     color: #FFFFFF; /* общий цвет шрифта */
     border-radius: 8px; /* скругление граней */
     padding: 2px 8px; /* отступы от текста до границ */
-
 }
 
 .red {
     background-color: #FF0000; /* цвет фона */
-
 }
 
 .green {
@@ -52,17 +51,17 @@ label {
 }
 
 [for="blue"] {
-    color: #0000FF; /* цвет тектса для лэйла */
+    color: #0000FF; /* цвет тектса для лэйбла */
 }
 
 input#green:checked ~ [for="green"] { /* при активном чекбоксе с таким-то id его лэйбл меняет цвет */
-    color: rgb(178,218,178);
+    color: rgb(178, 218, 178);
 }
 
 input#red:checked ~ [for="red"] { /* при активном чекбоксе с таким-то id его лэйбл меняет цвет */
-    color: rgb(255,181,180);
+    color: rgb(255, 181, 180);
 }
 
 input#blue:checked ~ [for="blue"] { /* при активном чекбоксе с таким-то id его лэйбл меняет цвет */
-    color: rgb(179,177,255);
+    color: rgb(179, 177, 255);
 }
