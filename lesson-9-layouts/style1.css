@@ -1,0 +1,67 @@
+* {
+    font-family: Calibri, serif; /* тип шрифта */
+    font-size: 19px; /* размер шрифта */
+}
+
+span {
+    color: #FFFFFF; /* общий цвет шрифта */
+    border-radius: 8px; /* скругление граней */
+    padding: 2px 8px; /* отступы от текста до границ */
+}
+
+.red {
+    background-color: #FF0000; /* цвет фона */
+}
+
+.green {
+    background-color: #008100; /* цвет фона */
+}
+
+.blue {
+    background-color: #0000FF; /* цвет фона */
+}
+
+input#blue:checked ~ .blue { /* при активном чекбоксе с таким-то id элемент с таким-то классом скрыть */
+    display: none;
+}
+
+input#green:checked ~ .green { /* при активном чекбоксе с таким-то id элемент с таким-то классом скрыть */
+    display: none;
+}
+
+input#red:checked ~ .red { /* при активном чекбоксе с таким-то id элемент с таким-то классом скрыть */
+    display: none;
+}
+
+input {
+    display: none; /* скрываю чекбоксы оставляя только лэйблы */
+}
+
+label {
+    text-decoration: underline; /* подчеркнутый текст */
+    padding: 2px 25px; /* отступы */
+}
+
+[for="red"] {
+    color: #FF0000; /* цвет тектса для лэйла */
+}
+
+[for="green"] {
+    color: #008100; /* цвет тектса для лэйла */
+}
+
+[for="blue"] {
+    color: #0000FF; /* цвет тектса для лэйбла */
+}
+
+input#green:checked ~ [for="green"] { /* при активном чекбоксе с таким-то id его лэйбл меняет цвет */
+    color: rgb(178, 218, 178);
+}
+
+input#red:checked ~ [for="red"] { /* при активном чекбоксе с таким-то id его лэйбл меняет цвет */
+    color: rgb(255, 181, 180);
+}
+
+input#blue:checked ~ [for="blue"] { /* при активном чекбоксе с таким-то id его лэйбл меняет цвет */
+    color: rgb(179, 177, 255);
+}
