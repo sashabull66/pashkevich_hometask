@@ -1,0 +1,47 @@
+* {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+ul {
+    list-style-type: none; /* убираю маркеры */
+    list-style-image: url('arrow.png'); /* изображение вместо маркера */
+}
+
+li {
+    color: rgb(159,164,172);
+    background-color: rgb(237,245,253);
+}
+
+a {
+    text-decoration: none; /* убираю подчеркивания ссылок снизу */
+}
+
+body > div {
+    display: inline-block;
+    height: 375px;
+    width: 237px;
+}
+
+.text_color_black {
+    color: rgb(53,73,90);
+}
+
+.text_color_white {
+    color: rgb(255,255,255);
+}
+
+.orange_white {
+    background-color: rgb(238,129,41);
+    color: rgb(255,255,255);
+}
+
+.border {
+    border: 3px solid rgb(238,129,41);
+}
+
+.center {
+    margin: 0 auto;
+}
+
+span {
+    font-size: 42px;
+}
