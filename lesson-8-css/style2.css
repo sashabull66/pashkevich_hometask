@@ -1,0 +1,39 @@
+nav {
+    background-color: #A64DFF; /* цвет фона */
+    height: 30px; /* высота блока меню */
+    width: 825px; /* ширина блока меню */
+    font-family: 'Oswald', serif; /* подключил кастомный шрифт */
+    font-size: 14px; /* размер шрифта */
+}
+
+nav > ul > li {
+    display: inline; /* делаю строчным */
+}
+
+nav > ul {
+    list-style-type: none; /* убираю маркеры */
+}
+
+nav > ul > li > a {
+    display: inline-block;
+    padding: 5px 10px 5px 10px; /* отступы вокруг текста пунктов меню */
+    text-decoration: none; /* убираю подчеркивания ссылок снизу */
+    color: #FFFBFF; /* цвет текста */
+    text-transform: uppercase; /* буквы большими */
+}
+
+ul:first-child {
+    padding-left: 50px; /* значение левого поля */
+}
+
+a:hover {
+    color: #AAA09F; /* цвет текста при наведении мыши */
+    background-color: #EEEEEE; /* цвет фона при наведении мыши */
+    padding: 5px 10px 5px 10px; /* размер окна наведенного объекта */
+    box-shadow: 0 2px 2px #e2e2e2, 0 -2px 2px #e2e2e2; /* тень */
+}
+
+.float {
+    float: right; /* выравнивание по правой стороне */
+    padding-right: 50px; /* значение правого поля */
+}

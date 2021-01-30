@@ -1,0 +1,19 @@
+table {
+    font-size: 26px; /* размер шрифта */
+    height: 260px; /* высота таблицы */
+    width: 1470px; /* ширина таблицы */
+    border-collapse: collapse; /* схлопываем границы */
+}
+
+tr:nth-child(2n) { /* каждая 2я строка таблицы */
+    background: #DDEBF8; /* цвет фона */
+}
+
+td:nth-child(2n+3) { /* каждый 2й абзац начиная с 3 */
+    background: #F2F2DD; /* цвет фона */
+}
+
+td {
+    text-align: center; /* выравнивание текста */
+    border-bottom: 2px solid #CDCDCD; /* линия снизу */
+}
