@@ -1,47 +1,111 @@
-* {
-    font-family: "Open Sans", Arial, sans-serif;
-}
-ul {
-    list-style-type: none; /* убираю маркеры */
-    list-style-image: url('arrow.png'); /* изображение вместо маркера */
-}
-
-li {
-    color: rgb(159,164,172);
-    background-color: rgb(237,245,253);
-}
-
-a {
-    text-decoration: none; /* убираю подчеркивания ссылок снизу */
-}
-
-body > div {
-    display: inline-block;
+.card {
+    box-sizing: border-box;
     height: 375px;
-    width: 237px;
+    width: 238px;
+    margin: 0;
+    padding: 0;
+    border: 4px solid rgb(238, 129, 41); /* рамка */
+    border-radius: 5px; /* скоругление углов рамки */
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.06); /* тень вокруг */
+    background-color: rgb(255, 255, 255); /* цвет фона */
+    font-family: "Open Sans", Arial, sans-serif; /* шрифт для всей карточки */
+    text-align: center; /* выравнивание текста по центру по умолчпнию для все элементов карточки */
 }
 
-.text_color_black {
-    color: rgb(53,73,90);
+.card__title {
+    background-color: rgb(238, 129, 41);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 18px;
 }
 
-.text_color_white {
-    color: rgb(255,255,255);
+.card__product-name {
+    color: rgb(53, 73, 90);
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 4px;
+    width: 100%;
+    font-size: 17px;
 }
 
-.orange_white {
-    background-color: rgb(238,129,41);
-    color: rgb(255,255,255);
+.card__product-prise { /* p */
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-.border {
-    border: 3px solid rgb(238,129,41);
+.card__prise-currency { /* $ */
+    color: rgb(53, 73, 90);
+    font-size: 18px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 5px;
+    top: -15px;
 }
 
-.center {
-    margin: 0 auto;
+.card__prise { /* 25 */
+    color: rgb(53, 73, 90);
+    font-size: 58px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 8px;
 }
 
-span {
-    font-size: 42px;
+.card__purchase-period { /* Monthly */
+    color: rgb(53, 73, 90);
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 12px;
+    left: -4px;
 }
+
+.card__product-description { /* описание (список) */
+    color: rgb(136, 140, 148); /* цвет текста элементов списка */
+    font-size: 12px;
+    list-style-type: none; /* Убираем маркеры */
+    text-align: left;
+    margin-top: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card__product-description > li {
+    background: rgb(237, 245, 253);
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 1px
+}
+
+.card__product-description > li:before {
+    content: url(arrow.png);
+    padding-right: 10px;
+    padding-left: 7px;
+}
+
+.card__product-purchase-button {
+    margin-top: 16px;
+    padding-top: 0;
+}
+
+.card__product-purchase-button > a {
+    font-size: 11px;
+    background: rgb(238, 129, 41);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 9px 60px;
+    border-bottom: 3px solid rgb(179, 86, 11);
+}
+
+
+
+
