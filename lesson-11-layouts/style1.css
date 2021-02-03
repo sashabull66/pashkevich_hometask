@@ -1,0 +1,192 @@
+.card {
+    box-sizing: border-box;
+    min-height: 375px;
+    width: 238px;
+    margin: 0;
+    padding: 0;
+    border: 4px solid rgb(238, 129, 41); /* рамка */
+    border-radius: 5px; /* скоругление углов рамки */
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.06); /* тень вокруг */
+    background-color: rgb(255, 255, 255); /* цвет фона */
+    font-family: "Open Sans", Arial, sans-serif; /* шрифт для всей карточки */
+    text-align: center; /* выравнивание текста по центру по умолчпнию для все элементов карточки */
+}
+
+.card__title {
+    background-color: rgb(238, 129, 41);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card__product-name {
+    color: rgb(53, 73, 90);
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 4px;
+    width: 100%;
+    font-size: 17px;
+}
+
+.card__product-prise { /* p */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card__prise-currency { /* $ */
+    color: rgb(53, 73, 90);
+    font-size: 18px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 5px;
+    top: -15px;
+}
+
+.card__prise { /* 25 */
+    color: rgb(53, 73, 90);
+    font-size: 58px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 8px;
+}
+
+.card__purchase-period { /* Monthly */
+    color: rgb(53, 73, 90);
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 12px;
+    left: -4px;
+}
+
+.card__product-description { /* описание (список) */
+    color: rgb(136, 140, 148); /* цвет текста элементов списка */
+    font-size: 12px;
+    list-style-type: none; /* Убираем маркеры */
+    text-align: left;
+    margin-top: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*.card__product-description:nth-child(odd) {
+    background-color: rgb(238,245,252);
+}
+
+.card__product-description:nth-child(even) {
+    background-color: rgb(245,245,246);
+}*/
+
+.card__product-description > li {
+    background: rgb(237, 245, 253);
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 1px
+}
+
+
+
+.card__product-description > li:before {
+    content: url(arrow.png);
+    padding-right: 10px;
+    padding-left: 7px;
+}
+
+.card__product-purchase-button {
+    display: inline-block;
+    font-size: 11px;
+    background: rgb(238, 129, 41);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px 61px;
+    border-bottom: 3px solid rgb(179, 86, 11);
+}
+
+.offers-card {
+    position: relative;
+    text-align: center;
+}
+.offers-card__title {
+    color: rgb(64,82,93);
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+.first_card, .third_card {
+    min-height: 355px;
+}
+
+.first_card > .card__product-purchase-button, .third_card > .card__product-purchase-button {
+    background: rgb(47,112,168);
+    border-bottom: 3px solid rgb(19,66,107);
+}
+
+.first_card > .card__title, .third_card > .card__title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.first_card > .card__title {
+    background-color: rgb(43,194,213);
+}
+
+.third_card > .card__title {
+    background-color: rgb(0,184,154);
+}
+
+
+.first_card {
+    border: 1px solid rgb(43,194,213); /* рамка */
+    border-radius: 4px; /* скоругление углов рамки */
+    box-shadow: none; /* тень вокруг */
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: -470px;
+    right: 0;
+    top: 98px;
+    text-align: center;
+    z-index: 0;
+}
+
+.second_card {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.third_card {
+    border: 1px solid rgb(0,184,154); /* рамка */
+    border-radius: 4px; /* скоругление углов рамки */
+    box-shadow: none; /* тень вокруг */
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 470px;
+    right: 0;
+    top: 98px;
+    text-align: center;
+    z-index: 0;
+}
+
+
+
+
+
