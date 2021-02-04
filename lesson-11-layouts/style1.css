@@ -137,7 +137,6 @@
     padding-bottom: 15px;
 }
 
-
 .first_card > .card__title { /* фон блока заголовка для 1 карточки */
     background-color: rgb(43,194,213);
 }
@@ -189,12 +188,3 @@
     text-align: center;
     z-index: 0;
 }
-
-.first_card, .third_card {
-
-}
-
-
-
-
-
