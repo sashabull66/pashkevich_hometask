@@ -1,1 +1,95 @@
-/* Write your code here */
+.portfolio { /* main */
+}
+
+.portfolio_first { /*1*/
+    margin-top: 85px;
+    text-align: right;
+    width: 100%;
+}
+
+.portfolio_first:after { /* очистка после первого портфолио и вставка пустого блока*/
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.portfolio_second { /*2*/
+    margin-top: 30px;
+    text-align: left;
+    width: 100%;
+}
+
+.portfolio_second:after { /* очистка после второго  портфолио и вставка пустого блока*/
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.portfolio_photo-first { /*1 фото*/
+    width: 65%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.portfolio_photo-second {/*2 фото*/
+    width: 65%;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.portfolio_first-info {
+    width: 35%;
+    padding: 15px;
+    float: right;
+    margin: 15% 0 0;
+}
+
+.portfolio_second-info {
+    width: 35%;
+    padding: 15px;
+    float: left;
+    margin: 15% 0 0;
+}
+
+.portfolio_name-first { /*1*/
+    width: 100%;
+}
+
+.portfolio_name-second { /*2*/
+    width: 100%;
+}
+
+.portfolio_name-first, .portfolio_name-second {
+    color: rgb(208,66,43);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.portfolio_job-first { /*1*/
+    width: 100%;
+}
+
+.portfolio_job-second {/*2*/
+    width: 100%;
+}
+
+.portfolio_job-first, .portfolio_job-second {
+    color: rgb(179,179,179);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.portfolio_about-me-first { /*1*/
+    width: 100%;
+}
+
+.portfolio_about-me-second { /*2*/
+    width: 100%;
+}
+
+.portfolio_about-me-first, .portfolio_about-me-second {
+    font-size: 20px;
+}
+
