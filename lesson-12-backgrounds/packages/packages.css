@@ -1,1 +1,115 @@
-/* Write your code here */
+body {
+    background: #7EC97D url("../images/plans-background.jpg") no-repeat; /* фоновое изображение для боди */
+    background-size: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.plan {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+.plan_first {
+    position: relative;
+    left: 0;
+    background: rgb(178, 178, 176);
+    opacity: 97%; /* прозрачность */
+    border-top: 2px rgb(109, 102, 112) solid;
+    border-right: 2px rgb(109, 102, 112) solid;
+    border-bottom: 2px rgb(109, 102, 112) solid;
+    width: 75%;
+    margin-top: 110px;
+    padding: 25px;
+}
+
+.plan_second {
+    margin-left: auto;
+    text-align: right;
+    background: rgb(178, 178, 176);
+    opacity: 97%; /* прозрачность */
+    border-top: 2px rgb(109, 102, 112) solid;
+    border-left: 2px rgb(109, 102, 112) solid;
+    border-bottom: 2px rgb(109, 102, 112) solid;
+    width: 75%;
+    margin-top: 45px;
+    padding: 25px;
+}
+
+.plan_third {
+    margin-right: auto;
+    text-align: left;
+    background: rgb(144, 111, 106);
+    opacity: 97%; /* прозрачность */
+    border-top: 2px rgb(109, 102, 112) solid;
+    border-right: 2px rgb(109, 102, 112) solid;
+    border-bottom: 2px rgb(109, 102, 112) solid;
+    width: 75%;
+    margin-top: 45px;
+    padding: 25px;
+    margin-bottom: 45px;
+}
+
+.plan_name {
+    color: rgb(21, 21, 21);
+    font-weight: bold;
+}
+
+.plan_title {
+    color: rgb(21, 21, 21);
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.plan_description {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 18px;
+    margin-top: 15px;
+    border: 2px rgb(128, 128, 126) solid;
+    width: 100%;
+}
+
+.plan_stick {
+    display: inline-block;
+    background-color: rgb(214, 61, 48);
+    color: rgb(255, 255, 255);
+    padding: 5px 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.plan_name-premium {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.plan_title-premium {
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.plan_description-premium {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-size: 18px;
+    margin-top: 15px;
+    border: 2px rgb(128, 128, 126) solid;
+    width: 100%;
+}
+
+.main-footer {
+    margin: 0;
+}
