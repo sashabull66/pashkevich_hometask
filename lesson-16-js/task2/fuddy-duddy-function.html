@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fuddy-Duddy</title>
+</head>
+<body>
+  <script>
+      'use strict';
+      function fuddyDuddy(a, b) {
+          for (var i = a; i <= b; i++) {
+              if (i % 5 === 0 && i % 3 === 0) {
+                  console.log(i + ' Fuddy-Duddy');
+              }
+          }
+      }
+      fuddyDuddy(1, 100);
+  </script>
+</body>
+</html>
