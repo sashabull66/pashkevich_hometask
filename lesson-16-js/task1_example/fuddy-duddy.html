@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+<body>
+    <script>
+        'use strict';
+
+        var a = 1;
+        var b = 100;
+
+        for (var i = a; i <= b; i++) {
+            if (i % 3 === 0) {
+                console.log(i + 'Fuddy');
+                continue;
+            }
+
+            if (i % 5 === 0) {
+                console.log(i + 'Duddy');
+                continue;
+            }
+
+            console.log(i);
+        }
+    </script>
+</body>
+</html>

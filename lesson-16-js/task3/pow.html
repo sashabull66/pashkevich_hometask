@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fuddy-Duddy</title>
+</head>
+<body>
+  <script>
+      function pow(x = prompt('Введи число'), n = prompt('Введи степень')) {
+          var result = x;
+          for (var temp = 1; temp < n; temp++) {
+              result *= x;
+          }
+          return result;
+      }
+      alert(pow());
+
+      /* вывод и ввод через консоль:*/
+      function pow2(y, m) {
+          var result = y;
+          for (var temp2 = 1; temp2 < m; temp2++) {
+              result *= y;
+          }
+          return result;
+      }
+      console.log(pow2(5, 2));
+  </script>
+</body>
+</html>
